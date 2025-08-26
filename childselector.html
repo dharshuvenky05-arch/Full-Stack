@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Child Selector</title>
+        <style>
+            body {
+                text-align: centre;
+            }
+            div > p{
+                color:blue;
+                font-size: 25px;
+                font-weight: bold;
+                text-align: centre;
+            }
+            p {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Child selector(>) property</h1>
+        <p>It is the first paragraph </p>
+        <p>It the second paragraph </p>
+        <div>
+        <h1>This is the div element</h1>
+        
+        <p>This is the third paragraph which does not get affected</p>
+        <p>This paragraph is also selected because it immediately next to third paragraph </p>
+    </div>
+    </body>
+</html>

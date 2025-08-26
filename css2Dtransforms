@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            div {
+                width: 300px;
+                height: 100px;
+                background-color: pink;
+                border: 1px solid black;
+            }
+            div#myDic {
+                /* IE 9 */
+                -ms-transform: rotate(20deg);
+                /* Safari */
+                -webkit-transform: rotate(20deg);
+                /* Standard syntax */
+                transform: rotate(20deg);
+            }
+
+            div#skewDiv {
+                /* IE 9 */
+                -ms-transform: skewX(20deg);
+                /* Safari */
+                -webkit-transform: skewX(20deg);
+                /* standard syntax */
+                transform: skewX(20deg);           
+            }
+
+           div#myDiv2 {
+            /* IE 9 */
+           -ms-transform: matrix(1,0,0.5,1,150,0);
+           /* Safari */
+           -webkit-transform: matrix(1,0,0.5,1,150,0);
+           /* standard syntax */
+           transform:matrix(1,0,0.5,1,150,0);
+           }
+           
+            </style>
+    </head>
+    <body>
+        <div>shikshaa.com.</div>
+        <div id = "myDiv">shikshaa.com</div>
+    </body>
+</html>
